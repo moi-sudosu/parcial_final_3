@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="text-center">
+    <h1>Bienvenido al Sistema</h1>
+    <div class="mt-4">
+        <div class="card d-inline-block" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Gestión de Clientes</h5>
+                <p class="card-text">Administrar la base de datos de clientes.</p>
+                <a href="{% url 'listar_clientes' %}" class="btn btn-primary">Ir a Clientes</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
